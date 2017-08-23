@@ -6,14 +6,15 @@
 		"type":"do_ALayout",
 		"views":[
 			{
-				"bgColor":"80808080",
-				"x":"186",
-				"width":"365",
-				"y":"364",
-				"id":"btn_hello",
-				"text":"Say Hello",
-				"type":"do_Button",
-				"height":"55"
+				"bgColor":"CCCCCCFF",
+				"textAlign":"center",
+				"width":"750",
+				"y":"128",
+				"fontSize":"60",
+				"id":"do_Label_1",
+				"text":"我是首页",
+				"type":"do_Label",
+				"height":"1206"
 			}
 		],
 		"height":"1334"
