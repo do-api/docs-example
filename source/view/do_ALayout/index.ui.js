@@ -46,7 +46,7 @@ deviceone.print(children,typeof(children));
 deviceone.print(ui(children[0]).text,typeof(children[0]));
 
 layout.on("touch",function(){
-	//deviceone.print("touch 触发")
+	deviceone.print("touch 触发")
 })
 layout.on("touchDown",function(){
 	deviceone.print("touchDown 触发")
