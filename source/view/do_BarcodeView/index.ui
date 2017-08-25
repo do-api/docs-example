@@ -1,5 +1,6 @@
 {
 	"RootView":{
+		"bgColor":"FFFFFFFF",
 		"x":"0",
 		"width":"750",
 		"y":"0",
@@ -8,7 +9,7 @@
 			{
 				"width":"600",
 				"x":"75",
-				"y":"300",
+				"y":"200",
 				"scanArea":"0,0,600,600",
 				"id":"do_BarcodeView_1",
 				"type":"do_BarcodeView",
@@ -17,38 +18,51 @@
 			{
 				"bgColor":"FFFFFFFF",
 				"width":"750",
-				"y":"950",
-				"id":"do_ALayout_1",
+				"y":"1000",
+				"id":"do_ALayout_2",
 				"type":"do_ALayout",
 				"views":[
 					{
+						"border":"00000000,1,[5,5,5,5]",
+						"bgColor":"4B9EF9FF",
 						"width":"250",
-						"x":"250",
+						"x":"63",
+						"y":"5",
 						"fontSize":"30",
 						"id":"do_Button_on",
 						"text":"开启闪光灯",
 						"type":"do_Button",
+						"fontColor":"FFFFFFFF",
 						"height":"100"
 					},
 					{
+						"border":"00000000,1,[5,5,5,5]",
+						"bgColor":"4B9EF9FF",
 						"width":"250",
-						"x":"500",
+						"x":"438",
+						"y":"5",
 						"fontSize":"30",
 						"id":"do_Button_off",
 						"text":"关闭闪光灯",
 						"type":"do_Button",
+						"fontColor":"FFFFFFFF",
 						"height":"100"
 					},
 					{
-						"width":"250",
+						"border":"00000000,1,[5,5,5,5]",
+						"bgColor":"4B9EF9FF",
+						"width":"624",
+						"x":"63",
+						"y":"135",
 						"fontSize":"30",
 						"id":"do_Button_setscanarea",
 						"text":"设置扫描区域",
 						"type":"do_Button",
+						"fontColor":"FFFFFFFF",
 						"height":"100"
 					}
 				],
-				"height":"100"
+				"height":"250"
 			}
 		],
 		"height":"1334"
