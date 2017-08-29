@@ -1,0 +1,21 @@
+{
+	"RootView":{
+		"bgColor":"808000FF",
+		"width":"200",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"textAlign":"center",
+				"width":"200",
+				"y":"200",
+				"maxLines":"0",
+				"fontSize":"30",
+				"id":"do_Label_text",
+				"type":"do_Label",
+				"fontColor":"FFFFFFFF",
+				"height":"286"
+			}
+		],
+		"height":"686"
+	}
+}
