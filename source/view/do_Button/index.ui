@@ -1,0 +1,25 @@
+{
+	"RootView":{
+		"x":"0",
+		"width":"750",
+		"y":"0",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"type":"do_Button",
+				"enabled":"false",
+				"bgColor":"4B9EF9FF",
+				"x":"175",
+				"width":"400",
+				"y":"490",
+				"id":"do_Button_1",
+				"text":"示例按钮",
+				"radius":"10",
+				"fontColor":"000000FF",
+				"textFlag":"strikethrough",
+				"height":"150"
+			}
+		],
+		"height":"1334"
+	}
+}
