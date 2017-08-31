@@ -20,8 +20,8 @@ do_CheckBox_1.fontColor = "FF000050";  //修改后两位的透明度
 //
 ////--------------------------------
 //--fontSize字体大小属性
-do_CheckBox.fontSize = "20";
-do_CheckBox_1.fontSize = "30";
+do_CheckBox.fontSize = 20;
+do_CheckBox_1.fontSize = 30;
 //
 //--------------------------------
 // --enabled是否可点击属性

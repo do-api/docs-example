@@ -1,20 +1,27 @@
 {
 	"RootView":{
-		"bgColor":"FFFFFFFF",
-		"x":"0",
 		"width":"750",
-		"y":"0",
 		"type":"do_ALayout",
 		"views":[
 			{
-				"border":"000000FF,1,[0,0,0,0]",
-				"x":"50",
-				"width":"300",
+				"textAlign":"center",
+				"x":"79",
+				"width":"250",
 				"y":"180",
-				"fontSize":"30",
-				"id":"do_CheckBox_1",
-				"type":"do_CheckBox",
-				"textFlag":"underline",
+				"fontSize":"28",
+				"id":"do_ComboBox_1",
+				"type":"do_ComboBox",
+				"textFlag":"strikethrough",
+				"height":"84"
+			},
+			{
+				"textAlign":"right",
+				"x":"379",
+				"width":"250",
+				"y":"180",
+				"fontSize":"28",
+				"id":"do_ComboBox_2",
+				"type":"do_ComboBox",
 				"height":"84"
 			},
 			{
@@ -27,22 +34,8 @@
 						"border":"00000000,1,[10,10,10,10]",
 						"bgColor":"4B9EF9FF",
 						"width":"200",
-						"x":"114",
-						"y":"10",
-						"fontSize":"28",
-						"id":"do_Button_enabled",
-						"text":"enabled属性",
-						"type":"do_Button",
-						"radius":"10",
-						"fontColor":"FFFFFFFF",
-						"height":"70"
-					},
-					{
-						"border":"00000000,1,[10,10,10,10]",
-						"bgColor":"4B9EF9FF",
-						"width":"200",
-						"x":"422",
-						"y":"10",
+						"x":"250",
+						"y":"8",
 						"fontSize":"28",
 						"id":"do_Button_fontStyle",
 						"text":"fontStyle属性",
@@ -58,7 +51,7 @@
 						"x":"50",
 						"y":"1340",
 						"fontSize":"28",
-						"id":"do_Button_8",
+						"id":"do_Button_3",
 						"text":"暂停下载离线地图",
 						"type":"do_Button",
 						"radius":"10",
@@ -72,7 +65,7 @@
 						"x":"440",
 						"y":"1340",
 						"fontSize":"28",
-						"id":"do_Button_9",
+						"id":"do_Button_4",
 						"text":"移除下载离线地图",
 						"type":"do_Button",
 						"radius":"10",
@@ -81,17 +74,6 @@
 					}
 				],
 				"height":"180"
-			},
-			{
-				"border":"000000FF,1,[0,0,0,0]",
-				"x":"400",
-				"width":"300",
-				"y":"180",
-				"fontSize":"30",
-				"id":"do_CheckBox_2",
-				"type":"do_CheckBox",
-				"textFlag":"underline",
-				"height":"84"
 			}
 		],
 		"height":"1334"
