@@ -1,10 +1,8 @@
 var rootview = ui("$");
 var nf = sm("do_Notification");
 var page = sm("do_Page");
-var storage = sm("do_Storage");
 var global = sm("do_Global");
 var app = sm("do_App");
-var album = sm("do_Album");
 
 var select_color = ui(rootview.add("select_color","source://view/do_Canvas/select_color.ui", 0, 0));
 var input_strokeWidth = ui(rootview.add("input_strokeWidth","source://view/do_Canvas/input_strokeWidth.ui", 0, 0));
@@ -164,14 +162,14 @@ listdata.addData([ {
 	parm : {
 		text : "定义文字啦啦",
 		coord : {
-			x : 200,
+			x : 250,
 			y : 300
 		},
 		fontStyle : "italic",
 		textFlag : "strikethrough",
-		fontSize : 35,
+		fontSize : 40,
 		textAlign : "left",
-		angle : 0
+		angle : 50
 	}
 } ])
 do_GridView_items.refreshItems();
@@ -332,39 +330,17 @@ do_ALayout_clear.on("touch", function() {
 	isdefine = false;
 })
 
-// 定义一个2秒的动画过程：缩放比例1-》1.2，图片位置：(0,0)-》(-75, -133)
-var img_anima = mm("do_Animation");
-img_anima.fillAfter = true;
-img_anima.transfer({
-	delay : 0,
-	duration : 900,
-	curve : "Linear",
-	autoReverse : false,
-	fromX : 0,
-	fromY : 0,
-	toX : 690,
-	toY : 1334
-}, "start1");
-img_anima.scale({
-	delay : 0,
-	duration : 900,
-	curve : "Linear",
-	autoReverse : false,
-	scaleFromX : 1,
-	scaleFromY : 1,
-	scaleToX : 0.001,
-	scaleToY : 0.001
-}, "start2");
 
-// 保存图片到手机
+// 保存画布上的图片到手机
 ui("do_Button_save").on("touch", function() {
 	var bitmap1 = mm("do_Bitmap");
 	do_Canvas.saveAsBitmap(bitmap1, function(data, e) {
-		deviceone.print(JSON.stringify(data))
-		
-//		ui("do_ImageView_picture").source = img_source;
-//		ui("do_ImageView_picture").visible = true;
-//		ui("do_ImageView_picture").animate(img_anima);
+		var _image = "data://save/" + global.getTime() + ".png";
+		bitmap1.save("PNG", 100, _image, function(bitmap_image, e) {
+			if (bitmap_image) {
+				sm("do_Notification").toast("保存成功");
+				deviceone.print(bitmap_image)
+			}
+		})
 	})
-
 })

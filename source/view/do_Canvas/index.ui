@@ -106,7 +106,7 @@
 				"bgColor":"00CE88FF",
 				"x":"149",
 				"width":"153",
-				"y":"1230",
+				"y":"1200",
 				"fontSize":"30",
 				"id":"do_Button_paint",
 				"text":"paint",
@@ -119,13 +119,24 @@
 				"bgColor":"00CE88FF",
 				"x":"452",
 				"width":"153",
-				"y":"1230",
+				"y":"1200",
 				"fontSize":"30",
 				"id":"do_Button_save",
 				"text":"save",
 				"type":"do_Button",
 				"fontColor":"FFFFFFFF",
 				"height":"70"
+			},
+			{
+				"width":"700",
+				"x":"25",
+				"y":"1280",
+				"fontSize":"20",
+				"id":"do_Label_9",
+				"text":"提示：需要先点击定义图形，再点击paint按钮才可以画出来对应的图形",
+				"type":"do_Label",
+				"fontColor":"FF0000FF",
+				"height":"45"
 			}
 		],
 		"height":"1334"

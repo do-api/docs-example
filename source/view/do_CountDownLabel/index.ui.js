@@ -1,5 +1,3 @@
-var rootview = ui("$");
-
 ui("do_ALayout_back").on("touch", function() {
 	sm("do_App").closePage();
 })
