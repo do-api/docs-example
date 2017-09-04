@@ -1,0 +1,31 @@
+{
+	"RootView":{
+		"bgColor":"CCE6FFFF",
+		"width":"550",
+		"x":"200",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"x":"69",
+				"width":"428",
+				"y":"200",
+				"id":"do_ImageView_1",
+				"type":"do_ImageView",
+				"height":"384"
+			},
+			{
+				"border":"00000000,1,[5,5,5,5]",
+				"bgColor":"C0C0C0FF",
+				"x":"200",
+				"width":"150",
+				"y":"50",
+				"fontSize":"30",
+				"id":"do_Button_1",
+				"text":"点击拍照",
+				"type":"do_Button",
+				"fontColor":"000000FF"
+			}
+		],
+		"height":"800"
+	}
+}

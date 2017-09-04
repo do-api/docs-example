@@ -1,0 +1,30 @@
+{
+	"RootView":{
+		"bgColor":"400080FF",
+		"width":"550",
+		"x":"0",
+		"y":"0",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"templates":"source://view/do_FragmentView/left_cell.ui",
+				"width":"548",
+				"x":"1",
+				"y":"223",
+				"id":"do_ListView_2",
+				"type":"do_ListView",
+				"height":"577"
+			},
+			{
+				"border":"00000000,1,[70,70,70,70]",
+				"x":"205",
+				"width":"140",
+				"y":"41",
+				"id":"do_ImageView_1",
+				"type":"do_ImageView",
+				"height":"140"
+			}
+		],
+		"height":"800"
+	}
+}
