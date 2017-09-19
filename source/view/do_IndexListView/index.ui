@@ -1,0 +1,20 @@
+{
+	"RootView":{
+		"bgColor":"FFFFFFFF",
+		"x":"0",
+		"width":"750",
+		"y":"0",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"templates":"source://view/do_IndexListView/index_cell0.ui,source://view/do_IndexListView/index_cell1.ui",
+				"width":"750",
+				"y":"40",
+				"id":"do_IndexListView_person",
+				"type":"do_IndexListView",
+				"height":"1290"
+			}
+		],
+		"height":"1334"
+	}
+}
