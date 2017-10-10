@@ -1,0 +1,37 @@
+{
+	"RootView":{
+		"bgColor":"FFFFFFFF",
+		"x":"0",
+		"width":"750",
+		"y":"0",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"isHeaderVisible":"true",
+				"bgColor":"FFFFFFFF",
+				"isFooterVisible":"true",
+				"width":"750",
+				"id":"do_ListView_1",
+				"type":"do_ListView",
+				"footerView":"source://view/do_ListView/myfooter.ui",
+				"headerView":"source://view/do_ListView/myheader.ui",
+				"height":"808"
+			},
+			{
+				"border":"00000000,1,[10,10,10,10]",
+				"bgColor":"4B9EF9FF",
+				"width":"180",
+				"x":"283",
+				"y":"870",
+				"fontSize":"28",
+				"id":"do_Button_update",
+				"text":"更新数据",
+				"type":"do_Button",
+				"radius":"10",
+				"fontColor":"FFFFFFFF",
+				"height":"70"
+			}
+		],
+		"height":"1334"
+	}
+}

@@ -23,7 +23,7 @@ sm("do_InitData").readFile("initdata://contact.json", function(data, e) {
 
 //点击事件
 ui("do_IndexListView_person").on("touch","","1000",function(_data){
-	deviceone.print(JSON.stringify(_data))
+	deviceone.print(JSON.stringify(_data),"点击事件")
 	var _all = do_HashData.getAll();
 	if (_chooseindex.index != ""){
 		if (_data.groupID == _chooseindex.groupID && _data.index == _chooseindex.index){
