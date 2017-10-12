@@ -159,12 +159,12 @@ do_ListView.on("scroll",function(_data){
 	deviceone.print(JSON.stringify(_data),"scroll事件")
 })
 
-//touch:滑动事件
+//touch事件
 do_ListView.on("touch",function(_data){
 	deviceone.print(JSON.stringify(_data),"touch事件")
 })
 
-//touch1:滑动事件
+//touch1事件
 do_ListView.on("touch1",function(_data){
 	deviceone.print(JSON.stringify(_data),"touch1事件")
 })

@@ -1,0 +1,33 @@
+{
+	"RootView":{
+		"bgColor":"F6F6F6FF",
+		"x":"0",
+		"width":"750",
+		"y":"0",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"x":"72",
+				"width":"40",
+				"y":"30",
+				"id":"do_ImageView_2",
+				"source":"source://view/do_GridView/image/movie.png",
+				"type":"do_ImageView",
+				"height":"40"
+			},
+			{
+				"textAlign":"center",
+				"x":"236",
+				"width":"262",
+				"y":"20",
+				"fontSize":"24",
+				"id":"do_Label_1",
+				"text":"下拉刷新",
+				"type":"do_Label",
+				"fontColor":"000000FF",
+				"height":"60"
+			}
+		],
+		"height":"100"
+	}
+}
