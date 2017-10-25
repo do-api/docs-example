@@ -10,6 +10,5 @@ do_SeekBar_1.progress = 50;
 
 do_SeekBar_1.secondaryProgress = 90;
 
-do_SeekBar_1.on("progressChanged",function(data){
-	deviceone.print(data)
+do_SeekBar_1.on("progressChanged",function(){
 })
